@@ -1,0 +1,6 @@
+core = "6.x"
+description = "Provides a simple function which assists themes in rerendering the search form."
+name = "Search Theme API"
+package = "Custom"
+project = "search_theme_api"
+version = "6.x-0.1"
