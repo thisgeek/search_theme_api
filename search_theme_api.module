@@ -23,3 +23,7 @@ function search_form_api_rerender($textfield, $submit, $vars) {
   
   $vars['search_form'] = implode($vars['search']);
 }
+
+function search_form_api_add_clear_script() {
+  return drupal_add_js(drupal_get_path('module', 'search_theme_api') . '/clear_search_form.js');
+}
